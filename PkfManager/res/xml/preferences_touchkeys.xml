@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:christopher83="http://christopher83">
+
+    <PreferenceCategory
+        android:title="@string/title_touchkeys_filter_status">
+        <SwitchPreference
+            android:key="@string/id_touchkeys_filter_status"
+            android:title="@string/title_status"
+            android:defaultValue="@bool/default_touchkeys_filter_status" />
+    </PreferenceCategory>
+    <com.christopher83.framework.controls.SeekBarPreference
+        android:key="@string/id_touchkeys_interrupt_checks"
+        android:title="@string/title_touchkeys_interrupt_checks"
+        android:summary="@string/summary_touchkeys_interrupt_checks"
+        android:defaultValue="@integer/default_touchkeys_interrupt_checks"
+        christopher83:minValue="@integer/min_touchkeys_interrupt_checks"
+        christopher83:maxValue="@integer/max_touchkeys_interrupt_checks" />
+    <com.christopher83.framework.controls.SeekBarPreference
+        android:key="@string/id_touchkeys_firsterr_wait"
+        android:title="@string/title_touchkeys_firsterr_wait"
+        android:summary="@string/summary_touchkeys_firsterr_wait"
+        android:defaultValue="@integer/default_touchkeys_firsterr_wait"
+        christopher83:minValue="@integer/min_touchkeys_firsterr_wait"
+        christopher83:maxValue="@integer/max_touchkeys_firsterr_wait"
+        christopher83:stepValue="@integer/step_touchkeys_firsterr_wait"
+        christopher83:postfixSymbol=" ms" />
+    <com.christopher83.framework.controls.SeekBarPreference
+        android:key="@string/id_touchkeys_lasterr_wait"
+        android:title="@string/title_touchkeys_lasterr_wait"
+        android:summary="@string/summary_touchkeys_lasterr_wait"
+        android:defaultValue="@integer/default_touchkeys_lasterr_wait"
+        christopher83:minValue="@integer/min_touchkeys_lasterr_wait"
+        christopher83:maxValue="@integer/max_touchkeys_lasterr_wait"
+        christopher83:stepValue="@integer/step_touchkeys_lasterr_wait"
+        christopher83:postfixSymbol=" ms" />
+    <Preference
+        android:key="@string/id_touchkeys_ignored_kp"
+        android:title="@string/title_touchkeys_ignored_kp"
+        android:summary="0" />
+
+</PreferenceScreen>

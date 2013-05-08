@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:christopher83="http://christopher83">
+
+    <PreferenceCategory
+        android:title="@string/title_homekey_filter_status">
+        <SwitchPreference
+            android:key="@string/id_homekey_filter_status"
+            android:title="@string/title_status"
+            android:defaultValue="@bool/default_homekey_filter_status" />
+    </PreferenceCategory>
+    <com.christopher83.framework.controls.SeekBarPreference
+        android:key="@string/id_homekey_allowed_irqs"
+        android:title="@string/title_homekey_allowed_irqs"
+        android:summary="@string/summary_homekey_allowed_irqs"
+        android:defaultValue="@integer/default_homekey_allowed_irqs"
+        christopher83:minValue="@integer/min_homekey_allowed_irqs"
+        christopher83:maxValue="@integer/max_homekey_allowed_irqs" />
+    <com.christopher83.framework.controls.SeekBarPreference
+        android:key="@string/id_homekey_report_wait"
+        android:title="@string/title_homekey_report_wait"
+        android:summary="@string/summary_homekey_report_wait"
+        android:defaultValue="@integer/default_homekey_report_wait"
+        christopher83:minValue="@integer/min_homekey_report_wait"
+        christopher83:maxValue="@integer/max_homekey_report_wait"
+        christopher83:postfixSymbol=" ms" />
+    <Preference
+        android:key="@string/id_homekey_ignored_kp"
+        android:title="@string/title_homekey_ignored_kp"
+        android:summary="0" />
+
+</PreferenceScreen>

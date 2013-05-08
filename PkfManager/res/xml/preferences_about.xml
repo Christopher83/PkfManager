@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/app_fullname">
+        <Preference
+            android:title="@string/title_about_author"
+            android:summary="@string/app_author" />
+    </PreferenceCategory>
+    <Preference
+        android:title="@string/title_about_description"
+        android:summary="@string/summary_about_description" />
+    <Preference
+        android:title="@string/title_about_thread"
+        android:summary="@string/summary_about_thread">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/link_about_thread" />
+    </Preference>
+    <Preference
+        android:title="@string/title_about_donation"
+        android:summary="@string/summary_about_donation">
+        <intent android:action="android.intent.action.VIEW"
+                android:data="@string/link_about_donation" />
+    </Preference>
+
+</PreferenceScreen>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Module path -->
+    <item name="path_pkf_module" type="string">/sys/class/misc/phantom_kp_filter</item>
+
+    <!-- Home Key Preferences -->
+    <item name="id_homekey_filter_status" type="string">id_homekey_filter_status</item>
+    <item name="path_homekey_filter_status" type="string">/sys/class/misc/phantom_kp_filter/home_enabled</item>
+    <item name="default_homekey_filter_status" type="bool">false</item>
+
+    <item name="id_homekey_allowed_irqs" type="string">id_homekey_allowed_irqs</item>
+    <item name="path_homekey_allowed_irqs" type="string">/sys/class/misc/phantom_kp_filter/home_allowed_irqs</item>
+    <item name="default_homekey_allowed_irqs" type="integer">4</item>
+    <item name="min_homekey_allowed_irqs" type="integer">1</item>
+    <item name="max_homekey_allowed_irqs" type="integer">32</item>
+
+    <item name="id_homekey_report_wait" type="string">id_homekey_report_wait</item>
+    <item name="path_homekey_report_wait" type="string">/sys/class/misc/phantom_kp_filter/home_report_wait</item>
+    <item name="default_homekey_report_wait" type="integer">12</item>
+    <item name="min_homekey_report_wait" type="integer">5</item>
+    <item name="max_homekey_report_wait" type="integer">25</item>
+
+    <item name="id_homekey_ignored_kp" type="string">id_homekey_ignored_kp</item>
+    <item name="path_homekey_ignored_kp" type="string">/sys/class/misc/phantom_kp_filter/home_ignored_kp</item>
+
+    <!-- Touch Keys Preferences -->
+    <item name="id_touchkeys_filter_status" type="string">id_touchkeys_filter_status</item>
+    <item name="path_touchkeys_filter_status" type="string">/sys/class/misc/phantom_kp_filter/menuback_enabled</item>
+    <item name="default_touchkeys_filter_status" type="bool">true</item>
+
+    <item name="id_touchkeys_interrupt_checks" type="string">id_touchkeys_interrupt_checks</item>
+    <item name="path_touchkeys_interrupt_checks" type="string">/sys/class/misc/phantom_kp_filter/menuback_interrupt_checks</item>
+    <item name="default_touchkeys_interrupt_checks" type="integer">10</item>
+    <item name="min_touchkeys_interrupt_checks" type="integer">1</item>
+    <item name="max_touchkeys_interrupt_checks" type="integer">10</item>
+
+    <item name="id_touchkeys_firsterr_wait" type="string">id_touchkeys_firsterr_wait</item>
+    <item name="path_touchkeys_firsterr_wait" type="string">/sys/class/misc/phantom_kp_filter/menuback_first_err_wait</item>
+    <item name="default_touchkeys_firsterr_wait" type="integer">500</item>
+    <item name="min_touchkeys_firsterr_wait" type="integer">50</item>
+    <item name="max_touchkeys_firsterr_wait" type="integer">1000</item>
+    <item name="step_touchkeys_firsterr_wait" type="integer">10</item>
+
+    <item name="id_touchkeys_lasterr_wait" type="string">id_touchkeys_lasterr_wait</item>
+    <item name="path_touchkeys_lasterr_wait" type="string">/sys/class/misc/phantom_kp_filter/menuback_last_err_wait</item>
+    <item name="default_touchkeys_lasterr_wait" type="integer">100</item>
+    <item name="min_touchkeys_lasterr_wait" type="integer">50</item>
+    <item name="max_touchkeys_lasterr_wait" type="integer">1000</item>
+    <item name="step_touchkeys_lasterr_wait" type="integer">10</item>
+
+    <item name="id_touchkeys_ignored_kp" type="string">id_touchkeys_ignored_kp</item>
+    <item name="path_touchkeys_ignored_kp" type="string">/sys/class/misc/phantom_kp_filter/menuback_ignored_kp</item>
+</resources>

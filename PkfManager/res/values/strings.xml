@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application Info -->
+    <string name="app_name">PKF Manager</string>
+    <string name="app_fullname">Phantom Key Presses Manager v1.1</string>
+    <string name="app_author">\@ 2013 Cristoforo Cataldo (Christopher83)</string>
+
+    <!-- Tab Titles -->
+    <string name="title_homekey">Home Key</string>
+    <string name="title_touchkeys">Touch Keys</string>
+    <string name="title_about">About</string>
+
+    <!-- Home Key Preferences -->
+    <string name="title_homekey_filter_status">HOME key presses filtering</string>
+    <string name="title_homekey_allowed_irqs">Max allowed incoming interrupts</string>
+    <string name="title_homekey_report_wait">Report wait time</string>
+    <string name="title_homekey_ignored_kp">Ignored phantom key presses</string>
+    <string name="summary_homekey_allowed_irqs">The allowed max number of incoming interrupts to consider a HOME key press as valid, a lower value allows to have a more aggressive filtering, instead a higher value allows to have a more permissive filtering</string>
+    <string name="summary_homekey_report_wait">The wait time in ms before reporting the collected HOME key presses, the key presses during this wait time are collected and reported only if the system received a number of interrupts less than or equal to the allowed max number of incoming allowed interrupts</string>
+
+    <!-- Touch Keys Preferences -->
+    <string name="title_touchkeys_filter_status">MENU/BACK key presses filtering</string>
+    <string name="title_touchkeys_interrupt_checks">Interrupt checks</string>
+    <string name="title_touchkeys_firsterr_wait">First error wait time</string>
+    <string name="title_touchkeys_lasterr_wait">Last error wait time</string>
+    <string name="title_touchkeys_ignored_kp">Ignored phantom key presses</string>
+    <string name="summary_touchkeys_interrupt_checks">The number of interrupt checks to be performed for the incoming MENU and BACK key presses, a lower value is more permissive, a higher value securely avoids most of the bad interrupts</string>
+    <string name="summary_touchkeys_firsterr_wait">The time in ms to wait after the first error on MENU or BACK keys if there are many invalid key errors in rapid sequence</string>
+    <string name="summary_touchkeys_lasterr_wait">The time in ms to wait after the last error on MENU or BACK keys if there are many invalid key errors in rapid sequence</string>
+
+    <!-- About Info -->
+    <string name="title_about_version">Version</string>
+    <string name="title_about_author">Author</string>
+    <string name="title_about_description">Description</string>
+    <string name="title_about_thread">XDA forum thread</string>
+    <string name="title_about_donation">Donate</string>
+    <string name="summary_about_description">This application allows to customize the filtering parameters of the Phantom key Presses filter module</string>
+    <string name="summary_about_thread">Follow the official app thread on XDA forum</string>
+    <string name="summary_about_donation">If you like my work and you\'d like to make a donation</string>
+    <string name="link_about_thread">http://forum.xda-developers.com/showthread.php?t=2265256</string>
+    <string name="link_about_donation">https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=cristoforo%2ecataldo%40gmail%2ecom&amp;lc=GB&amp;item_name=Christopher83%20%2d%20Phantom%20Key%20Presses%20Filter%20Manager&amp;no_note=0&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest</string>
+
+    <!-- Generic strings -->
+    <string name="title_status">Status</string>
+</resources>
