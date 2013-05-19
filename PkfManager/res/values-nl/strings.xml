@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tab Titles -->
+    <string name="title_homekey">Home Key</string>
+    <string name="title_touchkeys">Touch Keys</string>
+    <string name="title_about">Over</string>
+
+    <!-- Home Key Preferences -->
+    <string name="title_homekey_filter_status">HOME key presses filtratie</string>
+    <string name="title_homekey_allowed_irqs">Max. toegestaande onderbrekingen</string>
+    <string name="title_homekey_report_wait">Raporteer wacht tijd</string>
+    <string name="title_homekey_ignored_kp">Negeerde phantom key presses</string>
+    <string name="summary_homekey_allowed_irqs">De maximaal toegestaande onderbrekingen om een HOME key toets toe te staan. Hoe lager de waarde hoe agressiever de filtratie, terwijl een hogere waarde juist iets ruimer filtert.</string>
+    <string name="summary_homekey_report_wait">Wachttijd in ms voordat de verzamelde HOME key toetsen worden gerapporteerd. De toetsen gedurende het wachten worden verzameld en gerapporteerd, dit gebeurd alleen als de waarde die het systeem ontvangt van "max toegestaande onderbrekingen" lager of gelijk is aan de ingestelde waarde.</string>
+
+    <!-- Touch Keys Preferences -->
+    <string name="title_touchkeys_filter_status">MENU/BACK key presses filtratie</string>
+    <string name="title_touchkeys_interrupt_checks">Interrupt checks</string>
+    <string name="title_touchkeys_firsterr_wait">Wachttijd eerste error</string>
+    <string name="title_touchkeys_lasterr_wait">Wachttijd laatste error</string>
+    <string name="title_touchkeys_ignored_kp">Negeerde phantom key presses</string>
+    <string name="summary_touchkeys_interrupt_checks">Aantal controles die worden uitgevoerd voor de binnenkomende MENU and BACK toetsen. Een lage waarde is wat makkelijker terwijl een hoge waarde de meeste errors juist vermijd.</string>
+    <string name="summary_touchkeys_firsterr_wait">Wachttijd in ms na de eerste error op MENU en BAKC toetsen als er meerdere in snelle tempo achter elkaar voorkomen..</string>
+    <string name="summary_touchkeys_lasterr_wait">Wachttijd in ms na de laatste error op MENU en BACK toetsen als er meerdere in snelle tempo achter elkaar voorkomen.</string>
+
+    <!-- About Info -->
+    <string name="title_about_author">Maker</string>
+    <string name="title_about_module_version">Versie phantom_kp_filter</string>
+    <string name="title_about_description">Omschrijving</string>
+    <string name="title_about_thread">XDA forum thread</string>
+    <string name="title_about_donation">Doneer</string>
+    <string name="summary_about_description">This application allows to customize the filtering parameters of the Phantom key Presses filter module.</string>
+    <string name="summary_about_thread">Volg de officiele applciatie thread op XDA forum.</string>
+    <string name="summary_about_donation">Als je mijn werk waardeerd en je wilt doneren.</string>
+
+    <!-- Generic strings -->
+    <string name="title_status">Status</string>
+</resources>
