@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tab Titles -->
+    <string name="title_homekey">Tasta Acasa</string>
+    <string name="title_touchkeys">Tastele tactile</string>
+    <string name="title_about">Despre</string>
+
+    <!-- Home Key Preferences -->
+    <string name="title_homekey_filter_status">Filtrarea apasarii butonului HOME (ACASA)</string>
+    <string name="title_homekey_allowed_irqs">Numarul maxim permis de intreruperi</string>
+    <string name="title_homekey_report_wait">Raportarea timpului de asteptare</string>
+    <string name="title_homekey_ignored_kp">Apasarile fantoma  ignorate</string>
+    <string name="summary_homekey_allowed_irqs">Numarul maxim de intreruperi care urmeaza pentru a considera apasarea butonului HOME (ACASA) valida.O valoare mai mica permite o filtrare mai agresiva,in schimb o valoare mai mare permite o permisiune mai mare.</string>
+    <string name="summary_homekey_report_wait">Timpul de asteptare calculat in ms inainte de raportarea numarului de apasari a butonului HOME (ACASA ).Apasarile butonului in timpul acestui timp de asteptare sunt numarate si raportate doar daca sistemul a primit un numar de intreruperi.</string>
+
+    <!-- Touch Keys Preferences -->
+    <string name="title_touchkeys_filter_status">Filtrarea apasarii butonului MENU (MENIU)/BACK (INAPOI) key </string>
+    <string name="title_touchkeys_interrupt_checks">Verificarea de intreruperi</string>
+    <string name="title_touchkeys_firsterr_wait">Timpul de asteptare a primei erori</string>
+    <string name="title_touchkeys_lasterr_wait">Timpul de asteptare a ultimei erori</string>
+    <string name="title_touchkeys_ignored_kp">Apasarea fantoma ignorata </string>
+    <string name="summary_touchkeys_interrupt_checks">Verificarea numarului de intreruperi care urmeaza in urma apasarii butonului MENU (MENIU) sau BACK (INAPOI). O valoare mai mica este mai permisiva,dar o valoare mai mare cu siguranta evita intreruperile.A</string>
+    <string name="summary_touchkeys_firsterr_wait">Timpul calculat in ms pentru asteptarea dupa prima eroare a apasarii tastei MENU (MENIU) sau BACK(INAPOI) daca sunt multe apasari invalide intr-un timp scurt.</string>
+    <string name="summary_touchkeys_lasterr_wait">Timpul calculat in ms pentru asteptarea dupa ultima eroare a apasarii tastei MENU (MENIU) sau BACK(INAPOI) daca sunt multe apasari invalide intr-un timp scurt.</string>
+
+    <!-- About Info -->
+    <string name="title_about_author">Autor</string>
+    <string name="title_about_module_version">Versiunea phantom_kp_filter</string>
+    <string name="title_about_description">Descriere</string>
+    <string name="title_about_thread">Thread-ul din forumul XDA</string>
+    <string name="title_about_donation">Donati</string>
+    <string name="summary_about_description">Aceasta aplicatie permite customizarea filtrarii parametrilor modulului Phantom key Presses.</string>
+    <string name="summary_about_thread">Urmati thread-ul oficial al aplicatiei in forumul XDA.</string>
+    <string name="summary_about_donation">Daca iti place munca mea si vrei sa faci o donatie.</string>
+
+    <!-- Generic strings -->
+    <string name="title_status">Statut</string>
+</resources>
