@@ -144,21 +144,49 @@ public class TabPreferenceListFragment
 			 * Manage the preference click by updating the summary content
 			 */
 			public boolean onPreferenceClick(Preference preference) {
-				setUpdateablePreferenceSummary(preference, property);
+				setPropertyPreferenceSummary(preference, property);
 				return true;
 			}
 		});
 
 		// Initialize the text of the summary with the current value of the property
-		setUpdateablePreferenceSummary(preference, property);
+		setPropertyPreferenceSummary(preference, property);
 	}
 
 	/**
-	 * Updates the preference summary text with the property value
-	 * @param preference The preference to update the summary
+	 * Sets the preference summary text with the property value
+	 * @param resourceID The resource ID of the property related to the preference to set
+	 */
+	protected void setPropertyPreferenceSummary(int resID) {
+		setPropertyPreferenceSummary(_properties.get(resID));
+	}
+
+	/**
+	 * Sets the preference summary text with the property value
+	 * @param id The ID of the property related to the preference to set
+	 */
+	protected void setPropertyPreferenceSummary(String id) {
+		setPropertyPreferenceSummary(_properties.get(id));
+	}
+
+	/**
+	 * Sets the preference summary text with the property value
+	 * @param property The property related to the preference to set
+	 */
+	protected void setPropertyPreferenceSummary(final IProperty<?> property) {
+		// Get the preference related to the specified property
+		Preference preference = (Preference)findPreference(property.getID());
+
+		// Initialize the text of the summary with the current value of the property
+		setPropertyPreferenceSummary(preference, property);
+	}
+
+	/**
+	 * Sets the preference summary text with the property value
+	 * @param preference The preference to set the summary
 	 * @param property The property related to the preference
 	 */
-	protected void setUpdateablePreferenceSummary(Preference preference, final IProperty<?> property) {
+	protected void setPropertyPreferenceSummary(Preference preference, final IProperty<?> property) {
 		// Get the current value of the property
 		Object value = property.getValue();
 
