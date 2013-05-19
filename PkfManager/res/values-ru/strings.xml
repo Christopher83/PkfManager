@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tab Titles -->
+    <string name="title_homekey">Кнопка Домой</string>
+    <string name="title_touchkeys">Сенсорные клавиши</string>
+    <string name="title_about">О программе</string>
+
+    <!-- Home Key Preferences -->
+    <string name="title_homekey_filter_status">Фильтрация нажатий на кнопку Домой</string>
+    <string name="title_homekey_allowed_irqs">Макс. количество входящих запросов</string>
+    <string name="title_homekey_report_wait">Время ожидания отправки</string>
+    <string name="title_homekey_ignored_kp">Кол-во игнорированных нажатий</string>
+    <string name="summary_homekey_allowed_irqs">Максимальное количество входящих запросов, позволяющих определить нажатие на кнопку Домой реальным. Меньшее значение делает фильтрацию более агрессивной, большее значение, напротив, делает фильтрацию более мягкой.</string>
+    <string name="summary_homekey_report_wait">Время ожидания в мс, которое должно пройти перед отправкой нажатий на кнопку Домой. Нажатия за этот интервал времени отправляются, только если система получила количество нажатий, которое меньше или равно максимальному количеству нажатий.</string>
+
+    <!-- Touch Keys Preferences -->
+    <string name="title_touchkeys_filter_status">Фильтрация нажатий на кнопки Меню и Назад</string>
+    <string name="title_touchkeys_interrupt_checks">Проверка запросов</string>
+    <string name="title_touchkeys_firsterr_wait">Время ожидания после первой ошибки</string>
+    <string name="title_touchkeys_lasterr_wait">Время ожидания после последней ошибки</string>
+    <string name="title_touchkeys_ignored_kp">Кол-во игнорированных нажатий</string>
+    <string name="summary_touchkeys_interrupt_checks">Количество входящих запросов, которые могут рассматриваться как нажатия на кнопки Меню и Назад. Меньшее значение делает фильтрацию более мягкой, большее значение безопасно фильтрует большинство ложных запросов.</string>
+    <string name="summary_touchkeys_firsterr_wait">Время в мс, которое должно пройти после первой ошибки кнопок Меню или Назад, регистрируемой, если очень быстро происходит много неверных запросов кнопок.</string>
+    <string name="summary_touchkeys_lasterr_wait">Время в мс, которое должно пройти после последней ошибки кнопок Меню или Назад, регистрируемой, если очень быстро происходит много неверных запросов кнопок.</string>
+
+    <!-- About Info -->
+    <string name="title_about_author">Автор</string>
+    <string name="title_about_module_version">Версия модуля фильтрации</string>
+    <string name="title_about_description">Описание</string>
+    <string name="title_about_thread">Ветка на форуме XDA</string>
+    <string name="title_about_donation">Поддержка</string>
+    <string name="summary_about_description">Это приложение позволяет настраивать параметры модуля фильтрации фантомных нажатий.</string>
+    <string name="summary_about_thread">Зайдите на официальную ветку приложения на форуме XDA.</string>
+    <string name="summary_about_donation">Если вам понравилось мое приложение, вы можете сделать пожертвование.</string>
+
+    <!-- Generic strings -->
+    <string name="title_status">Статус</string>
+</resources>
