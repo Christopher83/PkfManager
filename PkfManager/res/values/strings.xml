@@ -31,6 +31,7 @@
 
     <!-- About Info -->
     <string name="title_about_author">Author</string>
+    <string name="title_about_module_version">Version of phantom_kp_filter</string>
     <string name="title_about_description">Description</string>
     <string name="title_about_thread">XDA forum thread</string>
     <string name="title_about_donation">Donate</string>

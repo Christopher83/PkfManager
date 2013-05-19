@@ -3,6 +3,10 @@
     <!-- Module path -->
     <item name="path_pkf_module" type="string">/sys/class/misc/phantom_kp_filter</item>
 
+    <!-- Module version -->
+    <item name="id_pkf_module_version" type="string">id_pkf_module_version</item>
+    <item name="path_pkf_module_version" type="string">/sys/class/misc/phantom_kp_filter/version</item>
+
     <!-- Home Key Preferences -->
     <item name="id_homekey_filter_status" type="string">id_homekey_filter_status</item>
     <item name="path_homekey_filter_status" type="string">/sys/class/misc/phantom_kp_filter/home_enabled</item>

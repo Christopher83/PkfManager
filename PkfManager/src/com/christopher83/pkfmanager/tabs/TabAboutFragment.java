@@ -15,7 +15,11 @@
  */
 package com.christopher83.pkfmanager.tabs;
 
+import android.os.Bundle;
+
 import com.christopher83.framework.controls.TabPreferenceListFragment;
+import com.christopher83.framework.properties.PropertyHashTable;
+import com.christopher83.pkfmanager.PkfCommon;
 import com.christopher83.pkfmanager.R;
 
 /**
@@ -36,4 +40,24 @@ public class TabAboutFragment extends TabPreferenceListFragment {
 		_preferencesID = R.xml.preferences_about;
 	}
 
+	/**
+	 * Initialize the properties related to the preferences
+	 * @return The properties related to the preferences
+	 */
+	@Override
+	public PropertyHashTable initProperties() {
+		return PkfCommon.getPkfAboutProperties(this.getActivity().getApplicationContext());
+	}
+
+	/**
+	 * Manages the tab creation
+	 */
+	@Override
+	public void onCreate(Bundle b) {
+		// Invoke the base class method
+		super.onCreate(b);
+
+		// Set the ignored key presses preference to update its summary with the current value of the related property when clicked
+		setPropertyPreferenceSummary(R.string.id_pkf_module_version);
+	}
 }

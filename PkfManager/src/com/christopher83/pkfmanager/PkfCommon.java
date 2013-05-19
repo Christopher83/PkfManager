@@ -67,4 +67,20 @@ public class PkfCommon {
 		return properties;
 	}
 
+	/**
+	 * Gets the properties related to the about tab
+	 * @param context The application context
+	 * @return The properties hash table related to the about tab
+	 */
+	public static PropertyHashTable getPkfAboutProperties(final Context context) {
+		// Initialize the properties hash table
+		PropertyHashTable properties = new PropertyHashTable(context);
+
+		// Add the file properties for the about tab
+		properties.put(new IntegerFileProperty(context.getString(R.string.id_pkf_module_version), context.getString(R.string.path_pkf_module_version), true));
+
+		// Return the properties hash table related to the home key presses filtering
+		return properties;
+	}
+
 }

@@ -6,6 +6,10 @@
         <Preference
             android:title="@string/title_about_author"
             android:summary="@string/app_author" />
+        <Preference
+            android:key="@string/id_pkf_module_version"
+            android:title="@string/title_about_module_version"
+            android:summary="0" />
     </PreferenceCategory>
     <Preference
         android:title="@string/title_about_description"
