@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Home Key Preferences -->
+    <string name="title_homekey_filter_status">Filtro pressioni pulsante HOME</string>
+    <string name="title_homekey_allowed_irqs">Numero massimo di interrupt in ingresso</string>
+    <string name="title_homekey_report_wait">Tempo di attesa</string>
+    <string name="title_homekey_ignored_kp">Numero di pressioni ignorate</string>
+    <string name="summary_homekey_allowed_irqs">Numero massimo consentito di interrupt in ingresso per poter considerare una pressione del pulsante HOME come valida. Un valore inferiore consente di avere un filtro più aggressivo, invece un valore più alto permette di avere una filtro più permissivo.</string>
+    <string name="summary_homekey_report_wait">Tempo di attesa in ms prima di segnalare le pressioni dei pulsanti HOME correntemente ricevute. Le pressioni dei pulsanti, durante questo tempo di attesa, vengono temporaneamente memorizzate e segnalate solo se il sistema ha ricevuto un numero di interrupt minore o uguale al numero massimo consentito.</string>
+
+    <!-- Touch Keys Preferences -->
+    <string name="title_touchkeys_filter_status">Filtro pressioni pulsanti MENU/BACK</string>
+    <string name="title_touchkeys_interrupt_checks">Numero di controlli sugli interrupt</string>
+    <string name="title_touchkeys_firsterr_wait">Attesa dopo il primo errore</string>
+    <string name="title_touchkeys_lasterr_wait">Attesa dopo l\'ultimo errore</string>
+    <string name="title_touchkeys_ignored_kp">Numero di pressioni ignorate</string>
+    <string name="summary_touchkeys_interrupt_checks">Numero di controlli da effettuare sugli interrupt in ingresso relativi alle pressioni dei pulsanti MENU e BACK. Un valore minore consente di avere un filtro più permissivo, invece un valore più alto evita in modo sicuro la maggior parte dei falsi interrupt.</string>
+    <string name="summary_touchkeys_firsterr_wait">Tempo in millisecondi di attesa dopo il primo errore rilevato sul pulsante MENU o BACK nel caso ci siano molte pressioni non valide in rapida sequenza.</string>
+    <string name="summary_touchkeys_lasterr_wait">Tempo in millisecondi di attesa dopo l\'ultimo errore rilevato sul pulsante MENU o BACK nel caso ci siano molte pressioni non valide in rapida sequenza.</string>
+
+    <!-- About Info -->
+    <string name="title_about_author">Autore</string>
+    <string name="title_about_module_version">Versione phantom_kp_filter</string>
+    <string name="title_about_description">Descrizione</string>
+    <string name="title_about_thread">Thread sul forum XDA</string>
+    <string name="title_about_donation">Donazione</string>
+    <string name="summary_about_description">Questa è l\'app per poter meglio personalizzare i parametri di filtro messi a disposizione dal modulo Phantom Key Presses Filter.</string>
+    <string name="summary_about_thread">Segui il thread ufficiale dell\'app su XDA.</string>
+    <string name="summary_about_donation">Se ti piace il mio lavoro e sei interessato a fare una donazione.</string>
+
+    <!-- Generic strings -->
+    <string name="title_status">Stato</string>
+</resources>
