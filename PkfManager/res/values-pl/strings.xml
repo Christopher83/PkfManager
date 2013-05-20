@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tab Titles -->
+    <string name="title_homekey">Przycisk Home</string>
+    <string name="title_touchkeys">Przyciski dotykowe</string>
+    <string name="title_about">O programie</string>
+
+    <!-- Home Key Preferences -->
+    <string name="title_homekey_filter_status">Filtrowanie naciśnięć przycisku HOME</string>
+    <string name="title_homekey_allowed_irqs">Maksymalna dozwolona liczba przychodzących przerwań</string>
+    <string name="title_homekey_report_wait">Czas opóźnienia zgłoszenia</string>
+    <string name="title_homekey_ignored_kp">Zignorowane naciśnięcia fantomowe</string>
+    <string name="summary_homekey_allowed_irqs">Dopuszczalna maksymalna liczba przychodzących przerwań, aby rozważyć naciśnięcie przycisku HOME za ważne. Niższa wartość pozwala na bardziej agresywne, natomiast wyższa wartość pozwala na bardziej liberalne filtrowanie.</string>
+    <string name="summary_homekey_report_wait">Czas oczekiwania w milisekundach przed zgłoszeniem zebranych naciśnięć przysicku HOME. Naciśnięcia przycisków podczas tego czasu oczekiwania są zebrane i zaraportowane tylko wtedy, gdy system otrzymał liczbę przerwań mniejszą niż lub równą maksymalnej dozwolonej liczbie przychodzących przerwań.</string>
+
+    <!-- Touch Keys Preferences -->
+    <string name="title_touchkeys_filter_status">Filtrowanie naciśnięć przycisków MENU/BACK</string>
+    <string name="title_touchkeys_interrupt_checks">Kontrola przerwań</string>
+    <string name="title_touchkeys_firsterr_wait">Czas opóźnienia pierwszego błędu</string>
+    <string name="title_touchkeys_lasterr_wait">Czas opóźnienia ostatniego błędu</string>
+    <string name="title_touchkeys_ignored_kp">Zignorowane naciśnięcia fantomowe</string>
+    <string name="summary_touchkeys_interrupt_checks">Liczba kontroli przerwań wykonywanych dla przychodzących naciśnięć przycisków MENU i BACK. Niższa wartość jest bardziej liberalna, wyższa wartość bezpiecznie pomija większość złych przerwań.</string>
+    <string name="summary_touchkeys_firsterr_wait">Czas opóźnienia w ms po pierwszym błędzie przycisku MENU lub BACK, jeżeli jest wiele nieważnych błędów przycisku w szybkiej sekwencji.</string>
+    <string name="summary_touchkeys_lasterr_wait">Czas opóźnienia w ms po ostatnim błędzie przycisku MENU lub BACK, jeżeli jest wiele nieważnych błędów przycisku w szybkiej sekwencji.</string>
+
+    <!-- About Info -->
+    <string name="title_about_author">Autor</string>
+    <string name="title_about_module_version">Wersja phantom_kp_filter</string>
+    <string name="title_about_description">Opis</string>
+    <string name="title_about_thread">Wątek na forum XDA</string>
+    <string name="title_about_donation">Wspomóż</string>
+    <string name="summary_about_description">Aplikacja ta pozwala na dostosowanie parametrów filtrowania modułu Phantom key Presses filter.</string>
+    <string name="summary_about_thread">Śledź oficjalny wątek aplikacji na forum XDA.</string>
+    <string name="summary_about_donation">Jeśli podoba Ci się moja praca i chcesz dokonać wpłaty.</string>
+
+    <!-- Generic strings -->
+    <string name="title_status">Status</string>
+</resources>
