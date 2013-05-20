@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tab Titles -->
+    <string name="title_homekey">Home Billentyű</string>
+    <string name="title_touchkeys">Érintő Billentyák</string>
+    <string name="title_about">Részletek</string>
+
+    <!-- Home Key Preferences -->
+    <string name="title_homekey_filter_status">HOME billentyű nyomás-szűrés</string>
+    <string name="title_homekey_allowed_irqs">Megengedett maximum bejövő megszakítások </string>
+    <string name="title_homekey_report_wait">Beszámolási várakozási idő</string>
+    <string name="title_homekey_ignored_kp">Mellőzőtt phantom billentyű nyomás</string>
+    <string name="summary_homekey_allowed_irqs">A maximálisan megengedett, érvényes, bejövő HOME billentyűnyomások száma. Minél kisebb a számérték, annál erősebb a szűrés, ellenben a nagyobb számérték megengedhetőbb szűrést engedélyez.</string>
+    <string name="summary_homekey_report_wait">Millisecundumban meghatározott várakozási idő, még mielőtt a Home billentyű megnyomása által összegyűjtött számértékeúk beszámolására sor kerülne. Ebben a várakozási időben megnyomott billentyűk csak akkor érvényesek, ha az adott rendszer kisebb, vagy egyenlő számú megszakításokat kap a maximálisan megengedett, érvényes, bejövő HOME billentyűk számával.</string>
+
+    <!-- Touch Keys Preferences -->
+    <string name="title_touchkeys_filter_status">MENU/VISZA billentyű nyomások szűrése</string>
+    <string name="title_touchkeys_interrupt_checks">Megszakítások ellenőrzése</string>
+    <string name="title_touchkeys_firsterr_wait">Első hiba várakozási idő</string>
+    <string name="title_touchkeys_lasterr_wait">Utolsó hiba várakozási idő</string>
+    <string name="title_touchkeys_ignored_kp">Mellőzőtt phantom billentyű nyomások</string>
+    <string name="summary_touchkeys_interrupt_checks">The number of interrupt checks to be performed for the incoming MENU and BACK key presses. A lower value is more permissive, a higher value securely avoids most of the bad interrupts.</string>
+    <string name="summary_touchkeys_firsterr_wait">Milli secundumban meghatározott várakozási idő, az első MENÜ, vagy VISSZA billentyű hibája után, ha sok hibát észlelünk rövid idő alatt.</string>
+    <string name="summary_touchkeys_lasterr_wait">Milli secundumban meghatározott várakozási idő, az utolsó MENÜ, vagy VISSZA billentyű hibája után, ha sok hibát észlelünk rövid idő alatt.</string>
+
+    <!-- About Info -->
+    <string name="title_about_author">Szerző</string>
+    <string name="title_about_module_version">phantom_kp_filter verzió</string>
+    <string name="title_about_description">Leírás</string>
+    <string name="title_about_thread">XDA fórum téma</string>
+    <string name="title_about_donation">Adományoz</string>
+    <string name="summary_about_description">Ez az aplikáció megengedi a Phantom billentyű nyomás modul szűrő paramétereinek változtatását.</string>
+    <string name="summary_about_thread">kövesd a nyilvános aplikáció témáját az XDA fórumon.</string>
+    <string name="summary_about_donation">Ha tetszk a munkám és szeretnél adományozni.</string>
+
+    <!-- Generic strings -->
+    <string name="title_status">Állapot</string>
+</resources>
