@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tab Titles -->
+    <string name="title_homekey">Home дугме</string>
+    <string name="title_touchkeys">Touch дугмићи</string>
+    <string name="title_about">О апликацији</string>
+
+    <!-- Home Key Preferences -->
+    <string name="title_homekey_filter_status">Филтери за притиске HOME дугмета</string>
+    <string name="title_homekey_allowed_irqs">Максимално дозвољени број прекида</string>
+    <string name="title_homekey_report_wait">Време чекања за извештај</string>
+    <string name="title_homekey_ignored_kp">Број игнорисаних phantom притисака</string>
+    <string name="summary_homekey_allowed_irqs">Максимални дозвољени број прекида да се подразумева као регуларни притисак на HOME дугме. Нижи број омогућава агресивније филтрирање, а виши број попустљивије филтрирање.</string>
+    <string name="summary_homekey_report_wait">Време чекања пре извештавања о примљеним притисцима на HOME дугме. Притисци на дугме током овог периода чекања су примљени само уколико систем прими најмање онолико прекида колико је дефинисано као максимални број дозвољених.</string>
+
+    <!-- Touch Keys Preferences -->
+    <string name="title_touchkeys_filter_status">Филтрирање притисака на MENU/BACK</string>
+    <string name="title_touchkeys_interrupt_checks">Провера прекида</string>
+    <string name="title_touchkeys_firsterr_wait">Време чекања на прву грешку</string>
+    <string name="title_touchkeys_lasterr_wait">Време чекања на последњу грешку</string>
+    <string name="title_touchkeys_ignored_kp">Број игнорисаних phantom притисака</string>
+    <string name="summary_touchkeys_interrupt_checks">Број провера прекида које ће се извршити за притиске на MENU и BACK. Нижа вредност је попустљивија, док са вишом избегавате већину прекида.</string>
+    <string name="summary_touchkeys_firsterr_wait">Време чекања у милисекундама након што се десила прва грешка код MENU или BACK дугмета уколико је присутно много лоших прекида у кратком периоду.</string>
+    <string name="summary_touchkeys_lasterr_wait">Време чекања у милисекундама након што се десила последња грешка код MENU или BACK дугмета уколико је присутно много лоших прекида у кратком периоду.</string>
+
+    <!-- About Info -->
+    <string name="title_about_author">Аутор</string>
+    <string name="title_about_module_version">Верзија phantom_kp_filter</string>
+    <string name="title_about_description">Опис</string>
+    <string name="title_about_thread">Тема на XDA форуму</string>
+    <string name="title_about_donation">Донирај</string>
+    <string name="summary_about_description">Апликација омогућава боље управљање подешавањем параметара за филтрирање Phantom Key Presses Filter kernel модула.</string>
+    <string name="summary_about_thread">Прати званичну тему апликације на XDA форуму.</string>
+    <string name="summary_about_donation">Уколико ти се свиђа мој рад и желиш да донираш.</string>
+
+    <!-- Generic strings -->
+    <string name="title_status">Статус</string>
+</resources>
