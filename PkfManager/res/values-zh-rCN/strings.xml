@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tab Titles -->
+    <string name="title_homekey">Home键</string>
+    <string name="title_touchkeys">触控键</string>
+    <string name="title_about">关于</string>
+
+    <!-- Home Key Preferences -->
+    <string name="title_homekey_filter_status">HOME键过滤</string>
+    <string name="title_homekey_allowed_irqs">最大允许值</string>
+    <string name="title_homekey_report_wait">报告等待时间</string>
+    <string name="title_homekey_ignored_kp">忽视虚假触控键</string>
+    <string name="summary_homekey_allowed_irqs">调节按下Home键的有效速率.较低的值可以有更快的反应，输入较高的值则需要按得更久功能才触发主页.</string>
+    <string name="summary_homekey_report_wait">报告收集的Home键的等待时间（以毫秒为单位）。在这段等待时间的按键仅收集当报告系统收到的中断数小于或等于允许的传入中断的允许的最大数量。</string>
+
+    <!-- Touch Keys Preferences -->
+    <string name="title_touchkeys_filter_status">菜单键/返回键 过滤</string>
+    <string name="title_touchkeys_interrupt_checks">解释器中断值检测</string>
+    <string name="title_touchkeys_firsterr_wait">第一个错误的等待时间</string>
+    <string name="title_touchkeys_lasterr_wait">最后一个错误的等待时间</string>
+    <string name="title_touchkeys_ignored_kp">忽视虚假触控键</string>
+    <string name="summary_touchkeys_interrupt_checks">"解释器中断值检测"中的数字可以改善菜单和返回键的异常表现。较低的数字表示宽松地控制，而较高的数字则可以敏锐地避免许多情况的错误中断。</string>
+    <string name="summary_touchkeys_firsterr_wait">如果在快速序列中存在无效的按键，以毫秒为单位等待菜单或返回键的第一个错误.</string>
+    <string name="summary_touchkeys_lasterr_wait">如果在快速序列中存在无效的按键，以毫秒为单位等待菜单或返回键的最后一个错误.</string>
+
+    <!-- About Info -->
+    <string name="title_about_author">作者</string>
+    <string name="title_about_module_version">phantom_kp_filter版本</string>
+    <string name="title_about_description">描述</string>
+    <string name="title_about_thread">XDA论坛主题</string>
+    <string name="title_about_donation">捐赠</string>
+    <string name="summary_about_description">此应用程序允许自定义按键的过滤时间值。</string>
+    <string name="summary_about_thread">查看XDA论坛的官方应用.</string>
+    <string name="summary_about_donation">如果你支持我的工作，请捐赠给我</string>
+
+    <!-- Generic strings -->
+    <string name="title_status">状态开关</string>
+</resources>
