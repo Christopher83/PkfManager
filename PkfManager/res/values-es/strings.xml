@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Tab Titles -->
-    <string name="title_homekey">Boton Home</string>
-    <string name="title_touchkeys">Botones Touch</string>
+    <string name="title_homekey">Tecla Home</string>
+    <string name="title_touchkeys">Teclas Tactiles</string>
     <string name="title_about">Acerca</string>
 
     <!-- Home Key Preferences -->
-    <string name="title_homekey_filter_status">Filtros Presion Boton Home</string>
+    <string name="title_homekey_filter_status">Filtros de Presion Tecla Home</string>
     <string name="title_homekey_allowed_irqs">Interrupciones Maximas Entrantes Permitidas</string>
     <string name="title_homekey_report_wait">Señalar el tiempo de espera</string>
     <string name="title_homekey_ignored_kp">Ignorado de pulsaciones fantasma</string>
     <string name="summary_homekey_allowed_irqs">El número máximo permitido de las interrupciones de entrada a considerar una tecla pulse HOME como válido. Un valor más bajo permite tener un filtrado más agresivas, en lugar de un valor más alto permite tener un filtrado más permisivas.</string>
-    <string name="summary_homekey_report_wait">El tiempo de espera en milisegundos antes de informar sobre la tecla de inicio recogidos de presiones. Las pulsaciones de tecla durante este tiempo de espera se recogen y se informaron sólo si el sistema ha recibido un número de interrupciones de menos de o igual que el número máximo permitido de las interrupciones permitidos entrantes.</string>
+    <string name="summary_homekey_report_wait">El tiempo de espera en milisegundos antes de informar sobre la tecla de inicio recogidos de presiones. Las pulsaciones de tecla durante este tiempo de espera se recogen y se informaran sólo si el sistema ha recibido un número de interrupciones de menos o igual que el número máximo permitido de las interrupciones permitidas entrantes.</string>
 
     <!-- Touch Keys Preferences -->
     <string name="title_touchkeys_filter_status">MENU/ATRAS pulsaciones de filtrado</string>
-    <string name="title_touchkeys_interrupt_checks">Chequeos Interrupidos</string>
+    <string name="title_touchkeys_interrupt_checks">Chequeos Interrumpidos</string>
     <string name="title_touchkeys_firsterr_wait">Primer tiempo de espera de error</string>
     <string name="title_touchkeys_lasterr_wait">Último tiempo de espera de error</string>
-    <string name="title_touchkeys_ignored_kp">Ignorado pulsaciones fantasma</string>
-    <string name="summary_touchkeys_interrupt_checks">El número de controles de interrupción que se deben realizar para el menú de entrantes y BACK pulsaciones de teclas. Un valor más bajo es más permisiva, un valor más alto con seguridad evita la mayoría de las malas interrupciones.</string>
-    <string name="summary_touchkeys_firsterr_wait">El tiempo en ms que esperar después de que el primer error en las teclas MENU o BACK si hay muchos errores de claves no válidas en una secuencia rápida.</string>
-    <string name="summary_touchkeys_lasterr_wait">El tiempo en ms que esperar después del último error en las teclas MENU o BACK si hay muchos errores de claves no válidas en una secuencia rápida.</string>
+    <string name="title_touchkeys_ignored_kp">Numero Ignorado de pulsaciones fantasma</string>
+    <string name="summary_touchkeys_interrupt_checks">El número de controles de interrupción que se deben realizar para el menú de entrantes y ATRAS de pulsaciones de teclas. Un valor más bajo es más permisiva, un valor más alto con seguridad evita la mayoría de las malas interrupciones.</string>
+    <string name="summary_touchkeys_firsterr_wait">El tiempo en ms que debe esperar después del primer error en las teclas MENU o ATRAS si hay muchos errores de claves no válidas en una secuencia rápida.</string>
+    <string name="summary_touchkeys_lasterr_wait">El tiempo en ms que debe esperar después del último error en las teclas MENU o ATRAS si hay muchos errores de claves no válidas en una secuencia rápida.</string>
 
     <!-- About Info -->
-    <string name="title_about_author">Author</string>
+    <string name="title_about_author">Autor</string>
     <string name="title_about_module_version">Version de phantom_kp_filter</string>
     <string name="title_about_description">Descripcion</string>
     <string name="title_about_thread">XDA forum thread</string>
     <string name="title_about_donation">Donacion</string>
-    <string name="summary_about_description">Esta aplicación permite personalizar los parámetros de filtrado del módulo de presiones de filtro clave Fantasma.</string>
+    <string name="summary_about_description">Esta aplicación permite personalizar los parámetros de filtrado del módulo de presiones del filtro (presiones Fantasma o phantom keys presses).</string>
     <string name="summary_about_thread">Sigue en XDA forum el thread de la aplicacion oficial.</string>
     <string name="summary_about_donation">Si mi trabajo te gusta por favor considera una donacion</string>
 
