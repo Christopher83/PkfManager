@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Tab Titles -->
-    <string name="title_homekey">Home Taste</string>
-    <string name="title_touchkeys">Touch Tasten</string>
+    <string name="title_homekey">Home-Taste</string>
+    <string name="title_touchkeys">Touch-Tasten</string>
     <string name="title_about">Über</string>
 
     <!-- Home Key Preferences -->
-    <string name="title_homekey_filter_status">Home tasten filter</string>
-    <string name="title_homekey_allowed_irqs">Maximal erlaubte unterbrechungen</string>
+    <string name="title_homekey_filter_status">Filter für Home-Taste</string>
+    <string name="title_homekey_allowed_irqs">Maximal erlaubte Unterbrechungen</string>
     <string name="title_homekey_report_wait">Wartezeit anzeigen</string>
-    <string name="title_homekey_ignored_kp">Ignorierte phantom tastendrücke</string>
-    <string name="summary_homekey_allowed_irqs">Die zulässige maximale Anzahl von eingehenden unterbrechungen um einen HOME-Tasten druck als gültig zu betrachten. Ein niedrigerer Wert ermöglicht eine aggressivere Filterung. Höhere werte bedeuten eine tolerantere filterung.</string>
-    <string name="summary_homekey_report_wait">Die Wartezeit in ms, bevor der home-tasten druck berichtet wird. Die Tastenbestätigungen während dieser wartezeit werden gesammelt und nur gemeldet, wenn das System eine kleinere, oder größere menge an Unterbrechungen gesammelt hat, die erlaubt sind.</string>
+    <string name="title_homekey_ignored_kp">Ignorierte Tastendrücke</string>
+    <string name="summary_homekey_allowed_irqs">Die zulässige maximale Anzahl von eingehenden Unterbrechungen um einen Home-Tastendruck als gültig zu betrachten. Ein niedrigerer Wert ermöglicht eine aggressive Filterung. Höhere Werte bewirken hingegen eine tolerantere Filterung.</string>
+    <string name="summary_homekey_report_wait">Die Wartezeit in ms, bevor die gesammelten Home-Tastendrücke berichtet werden. Die Tastendrücke während dieser Wartezeit werden gesammelt und rausgefiltert, wenn die Anzahl an Unterbrechungen größer als die Anzahl der maximal erlaubten Unterbrechungen ist.</string>
 
     <!-- Touch Keys Preferences -->
-    <string name="title_touchkeys_filter_status">MENU/Zurück tastendruck filter</string>
+    <string name="title_touchkeys_filter_status">Filter für MENU/Zurück Tasten</string>
     <string name="title_touchkeys_interrupt_checks">Unterbrechungsprüfer</string>
-    <string name="title_touchkeys_firsterr_wait">Erster error wartezeit</string>
-    <string name="title_touchkeys_lasterr_wait">Letzter error wartezeit</string>
-    <string name="title_touchkeys_ignored_kp">Ignorierte tastendrücke</string>
-    <string name="summary_touchkeys_interrupt_checks">Die Anzahl der Unterbrechungen, damit die Zurück, oder Menütaste bestätigt werden. Ein niedrigerer Wert ist ungenau, ein höherer Wert sicher vermeidet die meisten der ungewollten tastendrücke.</string>
-    <string name="summary_touchkeys_firsterr_wait">Die Zeit in ms nach dem ersten Fehler auf MENU oder BACK Tasten warten, wenn es viele ungültige tastendrücke in schneller Folge sind.</string>
-    <string name="summary_touchkeys_lasterr_wait">Die Zeit in ms nach dem letzten Fehler auf MENU oder BACK Tasten warten, wenn es viele ungültige tastendrücke in schneller Folge sind.</string>
+    <string name="title_touchkeys_firsterr_wait">Wartezeit nach erstem Fehler</string>
+    <string name="title_touchkeys_lasterr_wait">Wartezeit nach letztem Fehler</string>
+    <string name="title_touchkeys_ignored_kp">Ignorierte Tastendrücke</string>
+    <string name="summary_touchkeys_interrupt_checks">Die Anzahl der Unterbrechungskontrollen an den eingehenden Menü- oder Zurück-Tastendrücken. Ein niedrigerer Wert ist ungenau, ein höherer Wert sollte die meisten der ungewollten Tastendrücke vermeiden.</string>
+    <string name="summary_touchkeys_firsterr_wait">Die Zeit in ms, die nach dem ersten Fehler der Menü- oder Zurücktaste gewartet wird, wenn es viele ungültige Tastendrücke in schneller Folge sind.</string>
+    <string name="summary_touchkeys_lasterr_wait">Die Zeit in ms, die nach dem letzten Fehler der Menü- oder Zurücktaste gewartet wird, wenn es viele ungültige Tastendrücke in schneller Folge sind.</string>
 
     <!-- About Info -->
     <string name="title_about_author">Autor</string>
@@ -29,9 +29,9 @@
     <string name="title_about_description">Beschreibung</string>
     <string name="title_about_thread">XDA-Developers Forum</string>
     <string name="title_about_donation">Spenden</string>
-    <string name="summary_about_description">Diese anwendung erlaubt es einem das Phantom Key press modul zu konfigurieren.</string>
-    <string name="summary_about_thread">Folge dem offiziellen XDA-Developers thread.</string>
-    <string name="summary_about_donation">Wenn du meine arbeit gut findest, und du mir ein Bier ausgeben willst.</string>
+    <string name="summary_about_description">Diese Anwendung erlaubt es einem die Filtereinstellungen des Phantom Key Presses Filter Moduls zu konfigurieren.</string>
+    <string name="summary_about_thread">Folge dem offiziellen XDA-Developers Thread.</string>
+    <string name="summary_about_donation">Wenn du meine Arbeit gut findest und du mir ein Bier ausgeben willst.</string>
 
     <!-- Generic strings -->
     <string name="title_status">Status</string>
