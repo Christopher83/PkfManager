@@ -1,7 +1,8 @@
 ___________________________________________________________________________________________________________
 
-                                             ANDROID APPS - README
+                                             PKF Manager - README
 ___________________________________________________________________________________________________________
 
 
-This repo contains my developed apps for Android and my framework library used for them.
+This repo contains the sources of PKF Manager:
+http://forum.xda-developers.com/showthread.php?t=2265256
