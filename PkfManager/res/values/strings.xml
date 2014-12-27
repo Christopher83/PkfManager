@@ -2,7 +2,7 @@
 <resources>
     <!-- Application Info -->
     <string name="app_name">PKF Manager</string>
-    <string name="app_fullname">Phantom Key Presses Manager v1.3</string>
+    <string name="app_fullname">Phantom Key Presses Manager v1.4</string>
     <string name="app_author">\@ 2013 Cristoforo Cataldo (Christopher83)</string>
 
     <!-- Tab Titles -->
