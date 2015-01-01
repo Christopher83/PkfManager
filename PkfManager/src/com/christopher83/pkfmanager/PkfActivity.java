@@ -18,23 +18,23 @@ package com.christopher83.pkfmanager;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.christopher83.framework.utilities.IOUtilities;
-import com.christopher83.framework.controls.TabPreferenceListFragment;
-import com.christopher83.pkfmanager.tabs.TabAboutFragment;
-import com.christopher83.pkfmanager.tabs.TabHomeKeyFragment;
-import com.christopher83.pkfmanager.tabs.TabTouchKeysFragment;
-
 import android.app.ActionBar;
 import android.app.AlertDialog;
+import android.app.Fragment;
+import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+import android.support.v13.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+
+import com.christopher83.framework.controls.TabPreferenceListFragment;
+import com.christopher83.framework.utilities.IOUtilities;
+import com.christopher83.pkfmanager.tabs.TabAboutFragment;
+import com.christopher83.pkfmanager.tabs.TabHomeKeyFragment;
+import com.christopher83.pkfmanager.tabs.TabTouchKeysFragment;
 
 /**
  * Class for main activity of this application
@@ -90,7 +90,7 @@ public class PkfActivity extends FragmentActivity implements ActionBar.TabListen
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
 		// Create the adapter that will return a fragment for each of the three primary sections of the app
-		_sectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
+		_sectionsPagerAdapter = new SectionsPagerAdapter(getFragmentManager());
 
 		// Set up the ViewPager with the sections adapter
 		_viewPager = (ViewPager) findViewById(R.id.pager);
