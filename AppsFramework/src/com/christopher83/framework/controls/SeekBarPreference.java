@@ -350,4 +350,17 @@ public class SeekBarPreference extends DialogPreference implements SeekBar.OnSee
 		}
 	}
 
+	/**
+	 * Sets the current preference value
+	 * @return The current preference value
+	 */
+	public void setValue(int value) {
+		// Update the local value
+		_value = value;
+
+		// If the value must be persisted, then it will be stored
+		if (isPersistent())
+			persistInt(value);
+	}
+
 }
