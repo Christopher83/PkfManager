@@ -1,6 +1,6 @@
 /**
  *
- * Copyright (C) 2013, Cristoforo Cataldo (Christopher83)
+ * Copyright (C) 2013-2015, Cristoforo Cataldo (Christopher83)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -247,14 +247,20 @@ public class SeekBarPreference extends DialogPreference implements SeekBar.OnSee
 		// If the confirm button has been pressed
 		if (positiveResult) {
 			// Get the current chosen value
-			_value = getValueFromProgress(_seekBar.getProgress());
+			int value = getValueFromProgress(_seekBar.getProgress());
 
-			// If the value must be persisted, then it will be stored
-			if (isPersistent())
-				persistInt(_value);
+			// Call the change listener, if the update is confirmed
+			if (callChangeListener(Integer.valueOf(value))) {
+				// Update local value
+				_value = value;
 
-			// Notify that the value has been changed
-			notifyChanged();
+				// If the value must be persisted, then it will be stored
+				if (isPersistent())
+					persistInt(value);
+
+				// Notify that the value has been changed
+				notifyChanged();
+			}
 		}
 	}
 
